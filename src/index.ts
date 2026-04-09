@@ -15,7 +15,7 @@ import { initVideoPlayer } from './imgly';
 // ============================================================================
 
 const config = {
-  userId: 'starterkit-player-user',
+  userId: 'starterkit-player-user'
 
   // Local assets
   // baseURL: `/assets/`,
