@@ -40,18 +40,4 @@ export async function initVideoPlayer(cesdk: CreativeEditorSDK) {
   // cesdk.setTheme('dark');
   // cesdk.setLocale('en');
 
-  // ============================================================================
-  // Scene Loading
-  // ============================================================================
-
-  await cesdk.loadFromArchiveURL(
-    'https://cdn.img.ly/packages/imgly/plugin-marketing-asset-source-web/1.0.0/assets/templates/video-fashion-portfolio.zip'
-  );
-
-  // Zoom to fit the content with padding
-  cesdk.actions.run('zoom.toPage', {
-    page: 'first',
-    autoFit: true,
-    padding: 24
-  });
 }

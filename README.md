@@ -3,8 +3,7 @@
 Lightweight video playback for your web app — play, pause, and navigate video content. Built with [CE.SDK](https://img.ly/creative-sdk) by [IMG.LY](https://img.ly), runs entirely in the browser with no server dependencies.
 
 <p>
-  <a href="https://img.ly/docs/cesdk/starterkits/player/">Documentation</a> |
-  <a href="https://img.ly/showcases/cesdk">Live Demo</a>
+  <a href="https://img.ly/docs/cesdk/js/starterkits/player-6sjm1w/">Documentation</a>
 </p>
 
 ![Video Player starter kit showing a video playback interface](./hero.webp)
