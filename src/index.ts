@@ -15,7 +15,7 @@ import { initVideoPlayer } from './imgly';
 // ============================================================================
 
 const config = {
-  userId: 'starterkit-player-user',
+  userId: 'starterkit-player-user'
 
   // Local assets
   // baseURL: `/assets/`,
@@ -31,6 +31,20 @@ CreativeEditorSDK.create('#cesdk_container', config)
     (window as any).cesdk = cesdk;
 
     await initVideoPlayer(cesdk);
+
+    // ============================================================================
+    // Scene Loading
+    // ============================================================================
+
+    await cesdk.loadFromArchiveURL(
+      'https://cdn.img.ly/packages/imgly/plugin-marketing-asset-source-web/1.0.0/assets/templates/video-fashion-portfolio.zip'
+    );
+
+    cesdk.actions.run('zoom.toPage', {
+      page: 'first',
+      autoFit: true,
+      padding: 24
+    });
   })
   .catch((error) => {
     // eslint-disable-next-line no-console
