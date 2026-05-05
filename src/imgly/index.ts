@@ -39,5 +39,4 @@ export async function initVideoPlayer(cesdk: CreativeEditorSDK) {
 
   // cesdk.setTheme('dark');
   // cesdk.setLocale('en');
-
 }
