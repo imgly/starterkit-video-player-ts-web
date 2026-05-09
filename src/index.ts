@@ -15,10 +15,12 @@ import { initVideoPlayer } from './imgly';
 // ============================================================================
 
 const config = {
-  userId: 'starterkit-player-user'
+  userId: 'starterkit-video-player-user',
 
-  // Local assets
-  // baseURL: `/assets/`,
+  // IMG.LY CDN (for quick testing only, NOT recommended for production)
+
+  // Local assets for development
+
 };
 
 // ============================================================================
