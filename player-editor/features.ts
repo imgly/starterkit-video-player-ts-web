@@ -261,6 +261,15 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // #endregion
 
     // ============================================================================
+    // KEYBOARD SHORTCUTS
+    // Configure the keyboard-shortcut system
+    // ============================================================================
+
+    // #region Keyboard Shortcuts
+    'ly.img.keyboard.shortcuts' /* Enable keyboard shortcuts */,
+    // #endregion
+
+    // ============================================================================
     // DOCK AND LIBRARY FEATURES (DISABLED)
     // Asset library is disabled in player mode
     // ============================================================================
