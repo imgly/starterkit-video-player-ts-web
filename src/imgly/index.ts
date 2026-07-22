@@ -10,10 +10,10 @@
 import type CreativeEditorSDK from '@cesdk/cesdk-js';
 
 // Configuration
-import { PlayerConfig } from '../../player-editor/plugin';
+import { PlayerConfig } from './config/plugin';
 
 // Re-export for external use
-export { PlayerConfig } from '../../player-editor/plugin';
+export { PlayerConfig } from './config/plugin';
 
 /**
  * Initialize the CE.SDK Player with a complete configuration.
