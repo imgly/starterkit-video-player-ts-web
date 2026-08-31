@@ -200,6 +200,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.scene.layout.horizontal', /* Horizontal layout toggle */
     // 'ly.img.scene.layout.vertical', /* Vertical layout toggle */
     // 'ly.img.scene.layout.free', /* Free layout toggle */
+    // 'ly.img.scene.layout.spacing', /* Gap + screen-space toggle for stacked layouts */
     // 'ly.img.scene.fontSizeUnit', /* Font size unit selector in page resize panel */
     // #endregion
 
@@ -335,6 +336,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.video.timeline' /* Video Timeline visibility - read-only */,
     // 'ly.img.video.timeline.ruler', /* Timeline ruler/time scale */
     'ly.img.video.timeline.controls' /* Base video control UI */,
+    'ly.img.video.timeline.controls.bar' /* Timeline controls bar area */,
     'ly.img.video.timeline.controls.playback' /* Play/pause and timestamp */,
     'ly.img.video.timeline.controls.loop' /* Loop toggle */
     // #endregion
@@ -349,6 +351,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.video.timeline.overlays' /* Overlays track in timeline */,
     // 'ly.img.video.timeline.audio' /* Audio track in timeline */,
     // 'ly.img.video.timeline.addClip' /* Add clips to timeline */,
+    // 'ly.img.video.timeline.clip.menu' /* Clip ellipsis button */,
     // 'ly.img.video.timeline.controls.toggle' /* Timeline collapse/expand toggle */,
     // 'ly.img.video.timeline.controls.background' /* Background color controls */,
     // 'ly.img.video.timeline.controls.split' /* Split clip control */,
