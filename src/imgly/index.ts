@@ -4,16 +4,16 @@
  * This module provides the main entry point for initializing the player.
  * Import and call `initVideoPlayer()` to configure a CE.SDK instance for playback.
  *
- * @see https://img.ly/docs/cesdk/js/get-started/overview-e18f40/
+ * @see https://img.ly/docs/cesdk/js/getting-started/
  */
 
 import type CreativeEditorSDK from '@cesdk/cesdk-js';
 
 // Configuration
-import { PlayerConfig } from './config/plugin';
+import { PlayerConfig } from '../../player-editor/plugin';
 
 // Re-export for external use
-export { PlayerConfig } from './config/plugin';
+export { PlayerConfig } from '../../player-editor/plugin';
 
 /**
  * Initialize the CE.SDK Player with a complete configuration.
