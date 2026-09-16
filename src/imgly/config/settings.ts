@@ -57,16 +57,16 @@ export function setupSettings(cesdk: CreativeEditorSDK): void {
   // cesdk.engine.editor.setSetting('controlGizmo/showCropScaleHandles', true);
 
   // Move handles - Center handles for moving blocks
-  // cesdk.engine.editor.setSetting('controlGizmo/showMoveHandles', true);
+  // cesdk.engine.editor.setSetting('controlGizmo/moveHandleVisibility', 'auto');
 
   // Resize handles - Edge handles for non-proportional resizing
-  // cesdk.engine.editor.setSetting('controlGizmo/showResizeHandles', true);
+  // cesdk.engine.editor.setSetting('controlGizmo/resizeHandlesVisibility', 'auto');
 
   // Scale handles - Corner handles for proportional scaling
-  // cesdk.engine.editor.setSetting('controlGizmo/showScaleHandles', true);
+  // cesdk.engine.editor.setSetting('controlGizmo/scaleHandlesVisibility', 'auto');
 
   // Rotate handles - Handles for rotating blocks
-  // cesdk.engine.editor.setSetting('controlGizmo/showRotateHandles', true);
+  // cesdk.engine.editor.setSetting('controlGizmo/rotateHandlesVisibility', 'auto');
 
   // Minimum size (in screen pixels) when scaling down with gizmos or touch
   // Prevents blocks from becoming too small to interact with
