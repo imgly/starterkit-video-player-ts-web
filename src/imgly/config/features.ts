@@ -284,6 +284,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.video.timeline', /* Video Timeline visibility - read-only */
     // 'ly.img.video.timeline.addClip', /* Add clips to timeline */
     // 'ly.img.video.timeline.audio', /* Audio track in timeline */
+    // 'ly.img.video.timeline.clip.expand', /* Group clip expand button */
     // 'ly.img.video.timeline.clip.menu', /* Clip ellipsis button */
     // 'ly.img.video.timeline.clips', /* Clips track in timeline */
     // 'ly.img.video.timeline.controls', /* Base video control UI */
