@@ -29,6 +29,7 @@ import type CreativeEditorSDK from '@cesdk/cesdk-js';
  * @param cesdk - The CreativeEditorSDK instance to configure
  */
 export function setupSettings(cesdk: CreativeEditorSDK): void {
+  cesdk.engine.editor.setSetting('clip/defaultTransitionOverlapEnabled', false);
   // ============================================================================
   // SCOPE SETTINGS - DISABLE EDITING
   // Deny all editing operations to enforce read-only playback mode
@@ -239,19 +240,6 @@ export function setupSettings(cesdk: CreativeEditorSDK): void {
   // #endregion
 
   // ============================================================================
-  // DOCK SETTINGS
-  // Configure the asset dock appearance
-  // ============================================================================
-
-  // #region Dock Settings
-  // Hide text labels on dock icons (icon-only mode)
-  // cesdk.engine.editor.setSetting('dock/hideLabels', false);
-
-  // Dock icon size: 'normal' or 'large'
-  // cesdk.engine.editor.setSetting('dock/iconSize', 'large');
-  // #endregion
-
-  // ============================================================================
   // FEATURE FLAGS
   // Enable/disable specific engine capabilities
   // ============================================================================
@@ -274,19 +262,6 @@ export function setupSettings(cesdk: CreativeEditorSDK): void {
   // Uncomment to enable background grid and snap-to-grid for precise alignment
   // engine.editor.setSettingBool('grid/enabled', true);
   // engine.editor.setSettingBool('grid/snapEnabled', true);
-  // #endregion
-
-  // ============================================================================
-  // COLOR PICKER SETTINGS
-  // Configure color picker behavior
-  // ============================================================================
-
-  // #region Color Picker Settings
-  // Restrict color picker to a specific color mode:
-  // - 'Any': Allow both RGB and CMYK (default)
-  // - 'RGB': Restrict to RGB colors only
-  // - 'CMYK': Restrict to CMYK colors only
-  // cesdk.engine.editor.setSetting('colorPicker/colorMode', 'Any');
   // #endregion
 
   // ============================================================================
